@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body {
+    background-color: #e6eff5;
+    height: 100vh;
+}
+section {
+background-color: white;
+border-radius: 8px;
+background-color: white;
+box-shadow: 0px 15px 30px 8px rgba(0, 81, 171, 0.15);
+width: 635px;
+margin: 100px auto;
+}
+header {
+    padding: 40px;
+
+}
+h1 {
+    color: #2ab3b1;
+    font-family: Karla;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.3px;                                                    
+}
+h3 {
+    color: #C0df33;
+    font-family: Karla;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.225px;
+    margin-bottom: 11px;
+}
+header p {
+color: #9aa7be;
+font-family: Karla;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: -0.2px;
+}
+.block-wrapper {
+    display: flex;
+
+}
+.block-right, .block-left {
+width: 60%;
+padding: 40px;
+}
+.block-right {
+    background-color: #4bbfbc;
+}
+.block-left {
+    background-color: #2ab3b0;
+}
+h2 {
+    color: white;
+    font-family: Karla;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.225px;
+    margin-bottom: 18px;
+}
+h4 {
+    color: white;
+    font-family: Karla;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.4px;
+}
+h4 span {
+    color: white;
+    font-family: Karla;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+    opacity: 0.5;
+    margin-bottom: 4px;
+
+}
+.block-left p {
+    color: white;
+    font-family: Karla;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+    margin-bottom: 26px;
+
+}
+button {
+    width: 100%;
+    background-color: #c0df33;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 10); 
+    border: none ;
+    padding: 15px 0;
+    color: white;
+    font-family: Karla;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.2px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #2ab3b0;
+}
+ul {
+    list-style-type: none ;
+    color: white;
+    font-family: Karla;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.175px;
+}
+.block-left {
+    border-bottom-left-radius: 5px;
+}
+.block-right {
+    border-bottom-right-radius: 5px;
+}
+
+
